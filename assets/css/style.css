@@ -1,0 +1,16 @@
+:root {
+  --black: #000000;
+  --dark: #232830;
+  --hospital-green: #acd9b2;
+  --text-input-field: #f7f7f7;
+  --very-light-pink: #c7c7c7;
+  --white: #ffffff;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
