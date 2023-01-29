@@ -32,13 +32,16 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   justify-items: center;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
 }
 
 .form-container figure {
   display: flex;
   flex-direction: column;
   place-items: center;
+  position: relative;
+  width: 100%;
 }
 
 .logo {
@@ -93,6 +96,7 @@ body {
 .form {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .form__label {
@@ -125,8 +129,27 @@ body {
   width: 100%;
 }
 
+.secondary-btn {
+  background: var(--white);
+  border: 1px solid var(--hospital-green);
+  border-radius: .8rem;
+  color: var(--hospital-green);
+  font-family: 'Quicksand', sans-serif;
+  font-size: var(--lg);
+  font-weight: 700;
+  margin-top: 2.4rem;
+  padding: 2rem 2.4rem;
+  width: 100%;
+}
+
 @media (max-width: 640px) {
   .logo {
     display: block;
+  }
+
+  .secondary-btn {
+    bottom: 1.6rem;
+    width: 300px;
+    position: absolute;
   }
 }
