@@ -80,7 +80,7 @@ body {
 
 .resend {
   color: var(--dark);
-  font-size: var(--md);
+  font-size: var(--sm);
   margin-top: 2.4rem;
   text-align: center;
 }
