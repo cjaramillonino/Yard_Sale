@@ -39,6 +39,7 @@ body {
 .form-container figure {
   display: flex;
   flex-direction: column;
+  margin-top: 8rem;
   place-items: center;
   position: relative;
   width: 100%;
@@ -93,7 +94,8 @@ body {
   text-decoration: none;
 }
 
-.form {
+.form,
+.div__form {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -124,6 +126,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: var(--lg);
   font-weight: 700;
+  margin-bottom: 1rem;
   margin-top: 2.4rem;
   padding: 2rem 2.4rem;
   width: 100%;
@@ -142,14 +145,25 @@ body {
   width: 100%;
 }
 
+.main-title {
+  font-size: var(--lg);
+  justify-self: flex-start;
+  /* margin-bottom: 4rem; */
+  margin-top: 2rem;
+  text-align: left;
+}
+
 @media (max-width: 640px) {
   .logo {
     display: block;
   }
 
-  .secondary-btn {
-    bottom: 1.6rem;
-    width: 300px;
-    position: absolute;
+  .form-container {
+    height: 100%;
+  }
+
+  .form {
+    justify-content: space-between;
+    margin-top: 4rem;
   }
 }

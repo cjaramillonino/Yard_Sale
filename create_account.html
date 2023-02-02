@@ -18,12 +18,16 @@
 <body>
   <div class="login">
     <div class="form-container">
-      <figure>
-        <img class="logo" src="assets/img/logos/logo_yard_sale.svg" alt="logo">
-      </figure>
+
+      <section class="main-title">
+        <h2>My account</h2>
+      </section>
 
       <form action="/" class="form">
         <div class="div__form">
+          <label for="name" class="form__label">Name
+          </label>
+          <input type="text" name="name" id="name" class="form__input form__input-name" placeholder="Camila Yokoo">
           <label for="email" class="form__label">Email address
           </label>
           <input type="email" name="email" id="email" class="form__input form__input-email"
@@ -31,14 +35,9 @@
           <label for="password" class="form__label">Password
           </label>
           <input type="password" name="" id="password" class="form__input form__input-password" placeholder="*********">
-          <input class="primary-btn login-btn" type="submit" value="Log in">
-          <p class="resend">
-            <a href="/">Forgot my password</a>
-          </p>
         </div>
-        <button class="secondary-btn signup-btn">Sign up</button>
+        <input class="primary-btn login-btn" type="submit" value="Create">
       </form>
-
     </div>
   </div>
 </body>
