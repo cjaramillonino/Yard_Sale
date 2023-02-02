@@ -117,6 +117,15 @@ body {
   padding: .8rem;
 }
 
+.value {
+  border: none;
+  border-radius: .8rem;
+  font-size: var(--md);
+  height: 3.2rem;
+  margin-bottom: 2rem;
+  padding: .8rem;
+}
+
 .primary-btn {
   background: var(--hospital-green);
   border: none;
@@ -148,7 +157,7 @@ body {
 .main-title {
   font-size: var(--lg);
   justify-self: flex-start;
-  /* margin-bottom: 4rem; */
+  margin-bottom: 2rem;
   margin-top: 2rem;
   text-align: left;
 }
